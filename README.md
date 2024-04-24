@@ -32,76 +32,68 @@ pinned: false
 >[!IMPORTANT]
 >このリポジトリは[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)を活用しており、リリースノートやREADME、コミットメッセージの9割は[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage) ＋ [claude.ai](https://claude.ai/)で生成しています。
 
+## 🌟 イントロダクション
 
-## 🌟 Introduction
+KotobaTranscriberは、日本語音声をテキストに変換するための最先端のソリューションです。最新の機械学習モデルを活用し、高精度な文字起こしを実現します。
 
-HarmonAI IIは、AIとの調和と無限の可能性を追求するプロジェクトです。このリポジトリは、HarmonAI IIの開発テンプレートとして機能します。
+音声ファイルをアップロードするだけで、KotobaTranscriberが自動的に音声を認識し、テキストに変換します。ビジネスミーティングや講義、インタビューなど、あらゆるシーンで活躍します。
 
-## 🎥 Demo
+## 🎥 デモ
 
-HarmonAI IIのデモアプリケーションは、GitHub Actionsと連携し、自動的にデプロイされています。デモアプリを体験することで、HarmonAI IIの機能を直感的に理解することができます。
+KotobaTranscriberのデモアプリケーションをHugging Face Spacesで公開しています。ぜひ、実際に体験してみてください。
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Sunwood-ai-labs/KotobaTranscriber)
 
-## 🚀 Getting Started
+## 🚀 はじめに
 
-### Installation
+### インストール
 
-HarmonAI IIのインストール手順は以下の通りです:
+KotobaTranscriberのインストール手順は以下の通りです:
 
 1. リポジトリをクローンします: `git clone https://github.com/Sunwood-ai-labs/KotobaTranscriber.git`
 2. 必要な依存関係をインストールします: `pip install -r requirements.txt`
 
-### Usage
+### 使用方法
 
-HarmonAI IIの使用方法は以下の通りです:
+KotobaTranscriberの基本的な使用方法は以下の通りです:
 
-```bash
-git lfs install
-git lfs track "*.png"
-git lfs track "*.gif" 
-git lfs track "*.jpeg"
-git lfs track "*.jpg"
-git lfs track "*.mp4"
-```
+1. `app.py`を実行します: `python app.py`
+2. ブラウザで`http://localhost:7860`にアクセスします
+3. 音声ファイルをアップロードします
+4. 文字起こし結果が表示されます
 
-リポジトリ名を適切に変更してください:
+詳細な使用方法については、[ドキュメント](https://github.com/Sunwood-ai-labs/KotobaTranscriber/wiki)をご参照ください。
+
 
 ```bash
-run: git push --force https://MakiAi:$HF_TOKEN@huggingface.co/spaces/MakiAi/KotobaTranscriber main
+docker-compose up
 ```
 
-### Customization
-
-HarmonAI IIは、ユーザーのニーズに合わせてカスタマイズ可能です。設定ファイルを編集することで、プロジェクトの動作を柔軟に調整できます。
-
-## 📝 Updates
+## 📝 アップデート
 
 - v1.1.0 (2024-04-24):
   - フロントページの作成
   - READMEの全体的な改善
   - GitHub Actionsを使用したHuggingFace hubへの自動シンク機能の追加
-  - .gitignoreと.SourceSageignoreの更新
+  - .gitignoreと.gitattributesの更新 
   - プロジェクト名を「HarmonAI」から「KotobaTranscriber」に変更
 - v1.0.0 (2024-04-20):
   - 初回リリース
-  - 基本的な機能を実装
+  - 基本的な文字起こし機能を実装
 
+## 🤝 コントリビューション
 
-## 🤝 Contributing
+KotobaTranscriberへのご協力は大歓迎です！バグ報告、機能要求、プルリクエストなどを通じて、プロジェクトの改善にご協力ください。詳細は[CONTRIBUTING.md](CONTRIBUTING.md)をご覧ください。
 
-HarmonAI IIへのご協力は大歓迎です！バグ報告、機能要求、プルリクエストなどを通じて、プロジェクトの改善にご協力ください。詳細は[CONTRIBUTING.md](CONTRIBUTING.md)をご覧ください。
+## 📄 ライセンス
 
-## 📄 License
+KotobaTranscriberは[MIT License](LICENSE)の下でリリースされています。
 
-HarmonAI IIは[MIT License](LICENSE)の下でリリースされています。
+## 🙏 謝辞
 
-## 🙏 Acknowledgements
-
-HarmonAI IIの開発にあたり、以下の方々に感謝いたします:
+KotobaTranscriberの開発にあたり、以下の方々に感謝いたします:
 
 - [Sunwood-ai-labs](https://github.com/Sunwood-ai-labs)チームのメンバー
-- [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)プロジェクト
-- [claude.ai](https://claude.ai/)チーム
+- [kotoba-tech/kotoba-whisper-v1.0](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0)モデルの開発者の方々
 
-引き続き、HarmonAI IIプロジェクトをよろしくお願いいたします！
+引き続き、KotobaTranscriberプロジェクトをよろしくお願いいたします！

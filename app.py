@@ -34,17 +34,27 @@ def transcribe(audio_file):
     return result["text"]
 
 description = """
-<img src="https://media.githubusercontent.com/media/Sunwood-ai-labs/KotobaTranscriber/main/docs/ship2.gif" width=200px>
+<p align="center">
+<img src="https://media.githubusercontent.com/media/Sunwood-ai-labs/KotobaTranscriber/main/docs/ship2.gif" width="70%">
+<br>
+</p>
 """
+
+theme = gr.themes.Soft(
+    # neutral_hue=gr.themes.Color(c100="#f3f4f6", c200="#e5e7eb", c300="#d1d5db", c400="#9ca3af", c50="#ecf1e8", c500="#6b7280", c600="#4b5563", c700="#374151", c800="#1f2937", c900="#1E2D2F", c950="#1E2D2F"),
+    primary_hue="gray",
+    neutral_hue=gr.themes.Color(c100="#f3f4f6", c200="#e5e7eb", c300="#d1d5db", c400="#9ca3af", c50="#ecf1e8", c500="#1E2D2F", c600="#1E2D2F", c700="#374151", c800="#1f2937", c900="#111827", c950="#0b0f19"),
+)
 
 # Gradioインターフェースの定義
 iface = gr.Interface(
     fn=transcribe,
+    # fn=None,
     inputs=gr.Audio(type="filepath", label="Upload Audio (MP3 or MP4)"),
     outputs="text",
-    title="Speech-to-Text App",
+    title="KotobaTranscriber",
     description=description,
-    theme=gr.themes.Soft(),
+    theme=theme,
 )
 # アプリの起動
 iface.launch(server_name="0.0.0.0", server_port=7860, share=True)
