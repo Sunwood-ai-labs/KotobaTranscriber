@@ -51,7 +51,7 @@ theme = gr.themes.Soft(
 iface = gr.Interface(
     fn=transcribe,
     # fn=None,
-    inputs=gr.Audio(type="file", label="Upload Audio (MP3 or MP4)"),
+    inputs=gr.Audio(type="filepath", label="Upload Audio (MP3 or MP4)"),
     outputs="text",
     title="KotobaTranscriber",
     description=description,
