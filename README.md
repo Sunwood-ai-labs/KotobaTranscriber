@@ -14,7 +14,7 @@ pinned: false
 <br>
 <h1 align="center">KotobaTranscriber
 
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Sunwood-ai-labs/KotobaTranscriber)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/MakiAi/KotobaTranscriber)
 [![KotobaTranscriber - Sunwood-ai-labs](https://img.shields.io/static/v1?label=KotobaTranscriber&message=Sunwood-ai-labs&color=blue&logo=github)](https://github.com/KotobaTranscriber/Sunwood-ai-labs "Go to GitHub repo")
 [![stars - Sunwood-ai-labs](https://img.shields.io/github/stars/KotobaTranscriber/Sunwood-ai-labs?style=social)](https://github.com/KotobaTranscriber/Sunwood-ai-labs)
 [![forks - Sunwood-ai-labs](https://img.shields.io/github/forks/KotobaTranscriber/Sunwood-ai-labs?style=social)](https://github.com/KotobaTranscriber/Sunwood-ai-labs)
@@ -42,7 +42,7 @@ KotobaTranscriber は、日本語音声をテキストに変換するための�
 
 KotobaTranscriber のデモアプリケーションを Hugging Face Spaces で公開しています。ぜひ、実際に体験してみてください。
 
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Sunwood-ai-labs/KotobaTranscriber)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/MakiAi/KotobaTranscriber)
 
 ## Getting Started
 

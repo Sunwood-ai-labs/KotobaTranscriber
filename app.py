@@ -1,3 +1,4 @@
+import spaces
 import gradio as gr
 import torch
 from transformers import pipeline
@@ -19,6 +20,7 @@ pipe = pipeline(
     model_kwargs=model_kwargs
 )
 
+@spaces.GPU(duration=120)
 # 文字起こし関数
 def transcribe(audio_file):
     # 音声の読み込み
