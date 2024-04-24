@@ -32,68 +32,79 @@ pinned: false
 >[!IMPORTANT]
 >このリポジトリは[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)を活用しており、リリースノートやREADME、コミットメッセージの9割は[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage) ＋ [claude.ai](https://claude.ai/)で生成しています。
 
-## 🌟 イントロダクション
+## Introduction
 
-KotobaTranscriberは、日本語音声をテキストに変換するための最先端のソリューションです。最新の機械学習モデルを活用し、高精度な文字起こしを実現します。
+KotobaTranscriber は、日本語音声をテキストに変換するための最先端のソリューションです。最新の機械学習モデルを活用し、高精度な文字起こしを実現します。
 
-音声ファイルをアップロードするだけで、KotobaTranscriberが自動的に音声を認識し、テキストに変換します。ビジネスミーティングや講義、インタビューなど、あらゆるシーンで活躍します。
+音声ファイルをアップロードするだけで、KotobaTranscriber が自動的に音声を認識し、テキストに変換します。ビジネスミーティングや講義、インタビューなど、あらゆるシーンで活躍します。
 
-## 🎥 デモ
+## Demo
 
-KotobaTranscriberのデモアプリケーションをHugging Face Spacesで公開しています。ぜひ、実際に体験してみてください。
+KotobaTranscriber のデモアプリケーションを Hugging Face Spaces で公開しています。ぜひ、実際に体験してみてください。
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Sunwood-ai-labs/KotobaTranscriber)
 
-## 🚀 はじめに
+## Getting Started
 
 ### インストール
 
-KotobaTranscriberのインストール手順は以下の通りです:
+KotobaTranscriber のインストール手順は以下の通りです:
 
-1. リポジトリをクローンします: `git clone https://github.com/Sunwood-ai-labs/KotobaTranscriber.git`
-2. 必要な依存関係をインストールします: `pip install -r requirements.txt`
+1. リポジトリをクローンします:
+   `git clone https://github.com/Sunwood-ai-labs/KotobaTranscriber.git`
+
+2. 必要な依存関係をインストールします:
+   `pip install -r requirements.txt`
 
 ### 使用方法
 
-KotobaTranscriberの基本的な使用方法は以下の通りです:
+KotobaTranscriber の基本的な使用方法は以下の通りです:
 
-1. `app.py`を実行します: `python app.py`
+1. `app.py`を実行します:
+   `python app.py`
+
 2. ブラウザで`http://localhost:7860`にアクセスします
+
 3. 音声ファイルをアップロードします
+
 4. 文字起こし結果が表示されます
 
 詳細な使用方法については、[ドキュメント](https://github.com/Sunwood-ai-labs/KotobaTranscriber/wiki)をご参照ください。
 
+### Docker の起動方法
+
+KotobaTranscriber を Docker で起動するには、以下のコマンドを実行します:
 
 ```bash
 docker-compose up
 ```
 
-## 📝 アップデート
+## Changelog
 
 - v1.1.0 (2024-04-24):
   - フロントページの作成
-  - READMEの全体的な改善
-  - GitHub Actionsを使用したHuggingFace hubへの自動シンク機能の追加
-  - .gitignoreと.gitattributesの更新 
+  - README の全体的な改善
+  - GitHub Actions を使用した HuggingFace hub への自動シンク機能の追加
+  - .gitignore と .gitattributes の更新
   - プロジェクト名を「HarmonAI」から「KotobaTranscriber」に変更
+
 - v1.0.0 (2024-04-20):
   - 初回リリース
   - 基本的な文字起こし機能を実装
 
-## 🤝 コントリビューション
+## Contributing
 
-KotobaTranscriberへのご協力は大歓迎です！バグ報告、機能要求、プルリクエストなどを通じて、プロジェクトの改善にご協力ください。詳細は[CONTRIBUTING.md](CONTRIBUTING.md)をご覧ください。
+KotobaTranscriber へのご協力は大歓迎です！バグ報告、機能要求、プルリクエストなどを通じて、プロジェクトの改善にご協力ください。詳細は[CONTRIBUTING.md](CONTRIBUTING.md)をご覧ください。
 
-## 📄 ライセンス
+## License
 
-KotobaTranscriberは[MIT License](LICENSE)の下でリリースされています。
+KotobaTranscriber は[MIT License](LICENSE)の下でリリースされています。
 
-## 🙏 謝辞
+## Acknowledgements
 
-KotobaTranscriberの開発にあたり、以下の方々に感謝いたします:
+KotobaTranscriber の開発にあたり、以下の方々に感謝いたします:
 
 - [Sunwood-ai-labs](https://github.com/Sunwood-ai-labs)チームのメンバー
 - [kotoba-tech/kotoba-whisper-v1.0](https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0)モデルの開発者の方々
 
-引き続き、KotobaTranscriberプロジェクトをよろしくお願いいたします！
+引き続き、KotobaTranscriber プロジェクトをよろしくお願いいたします！
