@@ -12,7 +12,7 @@ license: mit
 
 
 <p align="center">
-<img src="https://media.githubusercontent.com/media/Sunwood-ai-labs/HarmonAI/main/docs/icon/icon2.gif" width="100%">
+<img src="https://github.com/Sunwood-ai-labs/KotobaTranscriber/blob/main/docs/ship2.gif" width="100%">
 <br>
 <h1 align="center">HarmonAI II</h1>
 <h2 align="center">
