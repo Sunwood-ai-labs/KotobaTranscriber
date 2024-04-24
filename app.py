@@ -34,8 +34,7 @@ def transcribe(audio_file):
     return result["text"]
 
 description = """
-The bot was trained to answer questions based on Rick and Morty dialogues. Ask Rick anything!
-<img src="https://huggingface.co/spaces/course-demos/Rick_and_Morty_QA/resolve/main/rick.png" width=200px>
+<img src="https://media.githubusercontent.com/media/Sunwood-ai-labs/KotobaTranscriber/main/docs/ship2.gif" width=200px>
 """
 
 # Gradioインターフェースの定義

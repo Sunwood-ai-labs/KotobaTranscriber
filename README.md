@@ -1,18 +1,16 @@
 ---
-title: HarmonAI II
-emoji: 🌖
-colorFrom: purple
-colorTo: gray
-sdk: streamlit
-sdk_version: 1.33.0
+title: KotobaTranscriber
+emoji: 🌍
+colorFrom: blue
+colorTo: red
+sdk: gradio
+sdk_version: 4.27.0
 app_file: app.py
 pinned: false
-license: mit
 ---
 
-
 <p align="center">
-<img src="https://github.com/Sunwood-ai-labs/KotobaTranscriber/blob/main/docs/ship2.gif" width="100%">
+<img src="https://media.githubusercontent.com/media/Sunwood-ai-labs/KotobaTranscriber/main/docs/ship2.gif" width="100%">
 <br>
 <h1 align="center">KotobaTranscriber</h1>
 
