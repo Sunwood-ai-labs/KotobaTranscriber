@@ -12,7 +12,7 @@ pinned: false
 <p align="center">
 <img src="https://media.githubusercontent.com/media/Sunwood-ai-labs/KotobaTranscriber/main/docs/ship2.gif" width="100%">
 <br>
-<h1 align="center">KotobaTranscriber</h1>
+<h1 align="center">KotobaTranscriber
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Sunwood-ai-labs/KotobaTranscriber)
 [![KotobaTranscriber - Sunwood-ai-labs](https://img.shields.io/static/v1?label=KotobaTranscriber&message=Sunwood-ai-labs&color=blue&logo=github)](https://github.com/KotobaTranscriber/Sunwood-ai-labs "Go to GitHub repo")
@@ -23,9 +23,9 @@ pinned: false
 [![GitHub Release](https://img.shields.io/github/v/release/Sunwood-ai-labs/KotobaTranscriber?sort=date&color=red)](https://github.com/Sunwood-ai-labs/KotobaTranscriber)
 [![GitHub Tag](https://img.shields.io/github/v/tag/Sunwood-ai-labs/KotobaTranscriber?color=orange)](https://github.com/Sunwood-ai-labs/KotobaTranscriber)
 
+</h1>
   <br>
 
-</h2>
 
 </p>
 
