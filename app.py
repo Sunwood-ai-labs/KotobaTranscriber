@@ -21,14 +21,13 @@ pipe = pipeline(
 )
 
 @spaces.GPU(duration=120)
-# 文字起こし関数
-def transcribe(audio_file):
+def transcribe(audio):
     # 音声の読み込み
-    audio, sr = librosa.load(audio_file, sr=None)
+    audio_data, sr = librosa.load(audio, sr=None)
     
     # 音声をリサンプリング
     target_sr = 16000
-    audio_resampled = librosa.resample(audio, orig_sr=sr, target_sr=target_sr)
+    audio_resampled = librosa.resample(audio_data, orig_sr=sr, target_sr=target_sr)
     
     # 推論の実行
     result = pipe(audio_resampled, generate_kwargs=generate_kwargs)
@@ -52,7 +51,7 @@ theme = gr.themes.Soft(
 iface = gr.Interface(
     fn=transcribe,
     # fn=None,
-    inputs=gr.Audio(type="filepath", label="Upload Audio (MP3 or MP4)"),
+    inputs=gr.Audio(type="file", label="Upload Audio (MP3 or MP4)"),
     outputs="text",
     title="KotobaTranscriber",
     description=description,
